@@ -1,0 +1,4 @@
+name: SebisLobby
+version: '${project.version}'
+main: de.palkuchen.kuchencraft.sebislobby.SebisLobby
+api-version: '1.21'
