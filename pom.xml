@@ -38,8 +38,7 @@
               <goal>shade</goal>
             </goals>
               <configuration>
-                  <finalName>${project.artifactId}</finalName>
-                  <outputDirectory>C:\Users\Palkuchen\Desktop\Development\Kuchencraft\Server\Server Kuchencraft - Sebis Lobby\plugins</outputDirectory>
+                  <outputFile>C:\Users\Palkuchen\Desktop\Development\Kuchencraft\Server\Server Kuchencraft - Sebis Lobby\plugins\${project.artifactId}-${project.version}.jar</outputFile>
               </configuration>
           </execution>
         </executions>
